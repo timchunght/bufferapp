@@ -5,7 +5,14 @@ This is a simple implementation of a Ruby Wrapper for the BufferApp API.
 
 Currently, only the following requests work:
 
-	POST /1/updates/create.json
+	Updates:
+		POST /1/updates/create.json
+
+	Links:
+		GET /1/links/shares
+
+	Info:
+		GET /1/info/configuration
 
 I will certainly implement the whole library if I got more time. This class was implemented when I got frustrated by the lack of documentation in the official gem (the API Doc link was dead when I tried to access it) for a single purpose: create and schedule updates.
 

@@ -2,6 +2,9 @@ require "bufferapp/version"
 require "bufferapp/update"
 require "bufferapp/user"
 require "bufferapp/profile"
+require "bufferapp/update"
+require "bufferapp/info"
+require "bufferapp/link"
 require "httparty"
 
 class Bufferapp
@@ -9,7 +12,10 @@ class Bufferapp
 	include Update
 	include User
 	include Profile
-  base_uri 'https://api.bufferapp.com/1'
+	include Link
+	include Info
+
+  base_uri "https://api.bufferapp.com/1"
 
 
 	def initialize(token)

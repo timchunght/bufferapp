@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Timothy Chung"]
   spec.email         = ["timchunght@gmail.com"]
   spec.licenses      = ['MIT']
-  spec.summary       = %q{Buffer API Ruby Wrapper}
-  spec.description   = %q{Buffer API}
+  spec.summary       = %q{Buffer API Ruby gem}
+  spec.description   = %q{Access Buffer API via a Ruby wrapper that abstracts all the complexity}
   spec.homepage      = "http://github.com/timchunght"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
